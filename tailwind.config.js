@@ -6,7 +6,12 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'ibm': ['IBM-Plex-Sans', 'sans-serif'],
+        'noto': ['Noto-Sans', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }

@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('../public/assets/fonts/Noto-Sans/NotoSans-Thin.woff2') format('woff2');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('../public/assets/fonts/Noto-Sans/NotoSans-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('../public/assets/fonts/Noto-Sans/NotoSans-Light.woff2') format('woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('../public/assets/fonts/Noto-Sans/NotoSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('../public/assets/fonts/Noto-Sans/NotoSans-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('../public/assets/fonts/Noto-Sans/NotoSans-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('../public/assets/fonts/Noto-Sans/NotoSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('../public/assets/fonts/Noto-Sans/NotoSans-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('../public/assets/fonts/Noto-Sans/NotoSans-ExtraBold.woff2') format('woff2');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('../public/assets/fonts/IBM-Plex-Sans/IBMPlexSans-Thin.woff2') format('woff2');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('../public/assets/fonts/IBM-Plex-Sans/IBMPlexSans-Light.woff2') format('woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('../public/assets/fonts/IBM-Plex-Sans/IBMPlexSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('../public/assets/fonts/IBM-Plex-Sans/IBMPlexSans-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('../public/assets/fonts/IBM-Plex-Sans/IBMPlexSans-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('../public/assets/fonts/IBM-Plex-Sans/IBMPlexSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
