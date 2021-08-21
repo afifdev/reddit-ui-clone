@@ -1,4 +1,10 @@
-export default function HeadlineCard({ title, text, source, image }) {
+export default function HeadlineCard({
+  title,
+  text,
+  source,
+  image,
+  customClass,
+}) {
   const bgImage = {
     backgroundImage: `url('/assets/images/${image}')`,
     backgroundSize: "cover",
@@ -7,7 +13,7 @@ export default function HeadlineCard({ title, text, source, image }) {
   };
   return (
     <div
-      className="h-44 rounded-lg before:bg-gradient-to-b before:from-black before:to-white"
+      className={`h-44 rounded-lg cursor-pointer ${customClass}`}
       style={bgImage}
     >
       <div className="h-full w-full p-3 bg-gradient-to-b from-transparent to-black rounded-lg flex flex-col justify-end text-white">
