@@ -9,7 +9,7 @@ export default function PostCard({
   promotedLink,
   text,
   poster,
-  imageURL,
+  image,
 }) {
   return (
     <div className="rounded cursor-pointer border hover:border-gray-500 border-gray-300 bg-reddit-fg flex flex-nowrap">
@@ -55,11 +55,8 @@ export default function PostCard({
           </div>
           <h3 className="font-semibold">{text}</h3>
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <img
-            src={`/assets/images/posts/${imageURL}`}
-            className="max-h-512 max-w-512 text-center"
-          />
+        <div className="flex flex-col justify-center items-center max-h-512">
+          <Image src={image} className="text-center image" />
           {isPromoted ? (
             <div className="text-xs text-blue-500 bg-blue-50 flex justify-between items-center p-2 w-full">
               <a>{promotedLink}</a>

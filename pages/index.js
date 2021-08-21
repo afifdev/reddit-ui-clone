@@ -5,6 +5,9 @@ import FilterButton from "../components/FilterButton";
 import GrowingCardItem from "../components/GrowingCardItem";
 import Button from "../components/Button";
 import PostCard from "../components/PostCard";
+import PromoImg from "../public/assets/images/posts/promo.jpg";
+import PostImg from "../public/assets/images/posts/post.jpg";
+import Post2Img from "../public/assets/images/posts/post2.jpg";
 
 export default function Home() {
   return (
@@ -122,7 +125,7 @@ export default function Home() {
                 <PostCard
                   likeCount={6}
                   commentCount={0}
-                  imageURL="promo.jpg"
+                  image={PromoImg}
                   isPromoted
                   promotedLink="ibkr.com.sg"
                   subreddit="UBKR_Official"
@@ -131,7 +134,7 @@ export default function Home() {
                 <PostCard
                   likeCount="29.1k"
                   commentCount={646}
-                  imageURL="post.jpg"
+                  image={PostImg}
                   subreddit="gaming"
                   text="TIL"
                   poster="mrdickballs"
@@ -139,11 +142,16 @@ export default function Home() {
                 <PostCard
                   likeCount="7.7k"
                   commentCount={84}
-                  imageURL="post2.jpg"
+                  image={Post2Img}
                   subreddit="rareinsults"
                   text="Man did him dirty."
                   poster="sahil_ad"
                 />
+
+                {/* Kard */}
+                <div className="rounded border border-gray-300 bg-reddit-fg">
+                  <div>Content</div>
+                </div>
               </div>
             </div>
 
