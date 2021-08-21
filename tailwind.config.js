@@ -4,6 +4,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      inset: {
+        95: "95%",
+      },
+      spacing: {
+        76: "19rem",
+        512: "512px",
+      },
       fontFamily: {
         ibm: ["IBM-Plex-Sans", "sans-serif"],
         noto: ["Noto-Sans", "sans-serif"],
@@ -15,6 +22,7 @@ module.exports = {
         "reddit-orange": "#FF4500",
       },
       screens: {
+        rxs: "418px",
         rsm: "508px",
         rmd: "728px",
         rlg: "948px",
